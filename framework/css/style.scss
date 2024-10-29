@@ -1,0 +1,553 @@
+/* General */
+
+.aiko-developer-code-actions {
+	/* background: #f6f7f7; */
+	margin: 0 -1em;
+	padding: 0.3em 1em 0;
+}
+
+.postbox-container { 
+	pre {
+		white-space: break-spaces;
+	}
+
+	.aiko-developer-code-actions {
+		border-top: 1px solid #dcdcde;
+		padding-top: 1em;
+	}
+}
+
+.button.aiko-developer-button-secondary {
+	/* border-color: currentColor; */
+	border-color: #9E9E9E;
+	color: #9e9e9e;
+	font-size: 12px;
+	.postbox-container & {
+		border: none;
+	}
+}
+
+/* Comment input */
+
+#aiko-developer-input {
+	width: 100%;
+	border-color: #2c3338;
+}
+
+/* Slug */
+
+#aiko-developer-post-slug-div {
+	display: flex;
+	gap: 0.5em;
+	align-items: center;
+	input:not(:focus) {
+		border-color: transparent;
+		background: transparent;
+		opacity: 0.5;
+		text-decoration: underline;
+	}
+}
+
+/* Code genius block */
+
+#poststuff .aiko-developer-block {
+	margin-top: 1em;
+	padding-top: 1em;
+	.aiko-developer-block-title {
+		margin: 0;
+		padding: 0;
+		font-size: 1.4em;
+	}
+	.aiko-developer-block-description {
+		margin: 0 0 0.5em;
+		padding: 0;
+		opacity: 0.5;
+	}
+	.aiko-developer-block-content {
+		margin: 0;
+		padding: 1em;
+		border: 1px solid gray;
+		background: white;
+	}
+}
+
+/* Active model */
+
+#aiko-developer-active-model {
+	float: right;
+	white-space: nowrap; 
+	span {
+		opacity: 0.5;
+		vertical-align: middle;
+		margin-right: 1em;
+	}
+	input {
+		margin-top: 0.1em;
+		margin-right: 0.1em;
+	}
+}
+
+#post-body-content, .edit-form-section {
+	margin-bottom: 0;
+}
+
+/* Functional requirements */
+
+#aiko-developer-functional-requirements-output.aiko-developer-block {
+	.aiko-developer-block-title {
+		font-size: 1.6em;
+	}
+	.aiko-developer-block-content {
+		border: 1px solid #8c8f94;
+		background: white;
+		font-size: 1.25em;
+		border-radius: 5px;
+	}
+	.aiko-developer-tooltip-container i {
+		opacity: 0.25;
+	}
+}
+
+/* Improvemets and suggestions */
+
+.aiko-developer-improvements-suggestions-wrapper {
+	display: flex;
+	gap: 2em;
+	margin-bottom: 2em;
+	padding-bottom: 2em;	
+	border-bottom: 5px solid black;
+	body.post-new-php & {
+		border: none;
+	}
+	#aiko-developer-input-wrapper {
+		flex-basis: 65%; 
+	}
+	#aiko-developer-improvements-wrapper {
+		flex-basis: 35%; 
+	}
+	body.post-new-php & {
+		flex-wrap: wrap;
+		#aiko-developer-input-wrapper, #aiko-developer-improvements-wrapper {
+			flex-basis: 100%; 
+		} 
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.aiko-developer-improvements-suggestions-wrapper {
+		flex-wrap: wrap;
+		#aiko-developer-input-wrapper {
+			flex-basis: 100%; 
+		}
+		#aiko-developer-improvements-wrapper {
+			flex-basis: 100%; 
+			margin-top: 0;
+			padding-top: 0;
+		}
+	}
+}
+
+/* Download */
+
+#aiko-developer-download {
+	.aiko-developer-button-container {
+		display: flex;
+		gap: 0.5em;
+		button {
+			flex: 0 1 auto;
+			width: 100%;
+			display: block;
+			margin-bottom: 5px;
+		}
+		.aiko-developer-tooltip-container {
+			flex: 1 0 auto;
+		}
+	}
+
+}
+
+/* Confidence */
+
+#aiko-developer-confidence-meta-box h3 {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	font-size: 3.3em;
+}
+
+#aiko-developer-confidence-level[data-confidence-level="90"] h3,
+#aiko-developer-confidence-level[data-confidence-level="91"] h3,
+#aiko-developer-confidence-level[data-confidence-level="92"] h3,
+#aiko-developer-confidence-level[data-confidence-level="93"] h3,
+#aiko-developer-confidence-level[data-confidence-level="94"] h3,
+#aiko-developer-confidence-level[data-confidence-level="95"] h3,
+#aiko-developer-confidence-level[data-confidence-level="96"] h3,
+#aiko-developer-confidence-level[data-confidence-level="97"] h3,
+#aiko-developer-confidence-level[data-confidence-level="98"] h3,
+#aiko-developer-confidence-level[data-confidence-level="99"] h3,
+#aiko-developer-confidence-level[data-confidence-level="100"] h3 {
+	color: green;
+}
+
+#aiko-developer-php-output-meta-box pre:empty:before,
+#aiko-developer-js-output-meta-box pre:empty:before,
+#aiko-developer-css-output-meta-box pre:empty:before {
+	content: 'No code here';
+}
+
+#aiko-developer-improvement {
+	display: flex; 
+	input {
+		margin-top: 0.1em;
+		flex-shrink: 0;
+	}
+}
+
+/* Code */
+
+#aiko-developer-css-output-meta-box,
+#aiko-developer-js-output-meta-box,
+#aiko-developer-php-output-meta-box {
+	.button.aiko-developer-button-secondary {
+		float: right;
+	}
+}
+
+/* Notice */
+
+.aiko-developer-notice {
+	padding: 1em;
+	background: white;
+	border: 2px solid green;
+	border-radius: 5px;
+	margin: 1em 0;
+	/* align-items: center; */
+	align-items: flex-start;
+	display: none;
+	&.aiko-developer-notice-show {
+		display: flex;	
+		/* align-items: center; */
+	}
+	.aiko-developer-notice-content {
+		padding: 0 0 0 1em;
+		margin: 0;
+		flex-basis: 100%;
+		flex-shrink: 1;
+		align-self: center;
+		h4 {
+			margin: 0 0 1em 0;
+			padding: 0;
+			font-weight: 700;
+			font-size: 1.1em;
+		}
+		p {
+			margin: 0;
+			&[data-message*="success-generate"] {
+				font-weight: 700;
+				font-size: 1.1em;
+			}
+			/*&#aiko-developer-code-not-generated-text {
+				font-weight: 700;
+				font-size: 1.1em;
+			}*/
+		}
+		.aiko-developer-notice-content-tools {
+			border-top: 1px solid #ccc;
+			margin-top: 1em;
+			padding-top: 1em;
+			width: 100%;
+			span {
+				opacity: 0.5;
+			}
+			.button {
+				margin-bottom: 3px;
+			}
+		}
+	}
+	&:before {
+		content: "i";
+		font-size: 2em;
+		font-weight: 800;
+		flex: 0 0 1.6em;
+		height: 1.6em;
+		line-height: 1.6em;
+		text-align: center;
+		background: green;
+		color: white;
+		border-radius: 50%;
+	}
+	&.aiko-developer-notice-error {
+		border-color: red;
+		&:before {
+			content: "!";
+			background: red;
+		}		
+	}
+	.aiko-developer-notice-close {
+		flex-basis: 1em;
+		&:before {
+			cursor: pointer;
+			font: normal 20px / 1 dashicons;
+			content: "\f335";
+			text-align: center;
+			color: #444;
+			opacity: 0.5;
+		}	
+		&:hover:before {
+			opacity: 1;
+		}			
+	}
+}
+
+/* Popup */
+
+.aiko-developer-popup-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	display: none;
+	z-index: 9999;
+	.aiko-developer-popup-content {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: white;
+		padding: 20px;
+		border-radius: 10px;
+		z-index: 10000;
+		h1, h2, h3, h4 {
+			padding: 0;
+			margin: 0;
+		}
+		.aiko-developer-popup-content-text {
+			margin: 1em 0;
+			padding: 1em 0;
+			border-bottom: 1px solid rgba(0, 0, 0, 0.3);			
+			border-top: 1px solid rgba(0, 0, 0, 0.3);			
+		}
+		#aiko-developer-rephrased-popup-content-text,
+		#aiko-developer-rephrased-user-prompt-popup-content-text {
+			display: flex;
+			gap: 1em;
+			> div {
+				flex-basis: 50%;
+				b {
+					font-size: 1.2em;
+				}
+			}
+		}
+	}
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+	.aiko-developer-popup-overlay .aiko-developer-popup-content {
+		left: 10%;
+		transform: translate(-5%, -50%);
+	}
+}
+
+
+
+/* Loader */
+
+#aiko-developer-loader-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	display: none;
+	z-index: 9999;
+	#aiko-developer-loader-container {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		z-index: 10000;
+		#aiko-developer-loader {
+			border: 8px solid #f3f3f3;
+			border-top: 8px solid #3498db;
+			border-radius: 50%;
+			width: 50px;
+			height: 50px;
+			animation: spin 2s linear infinite;
+			display: inline-block;
+		}
+		#aiko-developer-loader-text {
+			margin-top: 20px;
+			color: white;
+			font-size: 16px;
+		}
+	}
+}
+  
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+/* Tooltip */
+
+.aiko-developer-tooltip-container {
+	display: inline-block;
+	position: relative;
+	i.dashicons {
+		display: block;
+		vertical-align: middle;
+		vertical-align: -webkit-baseline-middle;
+		opacity: 0.5;
+		&:hover {
+			opacity: 1;
+		}
+	}
+	.aiko-developer-tooltip-text {
+		white-space: break-spaces;
+		z-index: 9;
+		padding: 0.5em;
+		background: #444;
+		color: white;
+		position: absolute;
+		left: -94px;
+		bottom: 100%;
+		margin-bottom: 10px;
+		width: 200px;
+		display: none;
+		text-align: center;
+		box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.28);
+		&:after {
+			border-left: solid transparent 10px;
+			border-right: solid transparent 10px;
+			border-top: solid #444 10px;
+			bottom: -10px;
+			content: " ";
+			height: 0;
+			left: 50%;
+			margin-left: -13px;
+			position: absolute;
+			width: 0;
+		}
+	}
+	&.aiko-developer-tooltip-arrow-right {
+		.aiko-developer-tooltip-text {
+			left: -164px;
+			text-align: left;
+			&:after {
+				right: 30px;
+				left: initial;
+			}				
+		}
+	}
+	&:has(i.dashicons:hover) {
+		.aiko-developer-tooltip-text {
+			display: block;
+		}
+	}
+}
+
+/* Welcome screen */
+
+.aiko-developer-welcome-wrapper {
+	margin: 20px 20px 20px 0;
+	padding: 3em;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.28);
+	color: white;
+	background-color: black;
+    background-image: url("../img/welcome_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+	h1 {
+		min-height: 5em;
+		color: white;
+		background-image: url("../img/welcome_logo_white.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		span {
+			display: none;
+		}
+	}
+	.aiko-developer-welcome-supertitle  {
+		letter-spacing: 10px;
+		text-transform: uppercase;
+		margin-bottom: 2em;
+	}
+	.aiko-developer-welcome-subtitle  {
+		font-size: 2em;
+	}
+	.aiko-developer-welcome-tools  {
+		margin-top: 3em;
+	}
+}
+
+/* Settings */
+
+.aiko_developer_temperature_wrapper {
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+	.aiko_developer_temperature_value_wrapper {
+		order: 1;
+	}
+	.aiko_developer_temperature_range_wrapper {
+		input {
+			width: 280px;
+		}
+	}
+	p.description {
+		flex-basis: 100%;
+		order: 2;
+	}
+}
+
+.form-table {
+	p.description {
+		font-size: 13px;
+		color: #9E9E9E;
+	}	
+	tr ul:first-child {
+		margin-top: 0;
+	}
+} 
+
+/* Lite special */ 
+
+#aiko-developer-buy-full-wrapper {
+	padding: 1em;
+    background: white;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin: 1em 0;
+    /* align-items: center; */
+    align-items: flex-start;
+    display: flex;
+	flex-direction: column;
+	&.aiko-developer-buy-full-settings {
+		max-width: 920px;
+	}
+	h2 {
+		padding: 0 0 0.5em 0;
+		font-size: 1.2em;
+		margin: 0 0 0.5em 0;
+		border-bottom: 1px solid #ccc;
+		flex-basis: 100%;
+		width: 100%;		
+	}
+	p {
+		padding: 0;
+		margin: 0;
+	}
+	p:last-of-type {
+		padding-top: 1em;
+	}
+}
+
+.aiko-developer-welcome-wrapper.aiko-developer-lite-welcome-wrapper h1 {
+	background-image: url("../img/welcome_logo_white_lite.png");
+}

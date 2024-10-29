@@ -1,0 +1,568 @@
+# Copyright (C) 2024 BoldThemes
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AIKO - AI Developer Lite 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/aiko-developer-lite\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-30T14:42:11+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: aiko-developer-lite\n"
+
+#. Plugin Name of the plugin
+#: aiko-developer-lite-init.php
+msgid "AIKO - AI Developer Lite"
+msgstr ""
+
+#. Description of the plugin
+#: aiko-developer-lite-init.php
+msgid "AI powered plugin that creates plugins for users without experience (Lite version)"
+msgstr ""
+
+#. Author of the plugin
+#: aiko-developer-lite-init.php
+msgid "BoldThemes"
+msgstr ""
+
+#. Author URI of the plugin
+#: aiko-developer-lite-init.php
+msgid "https://www.bold-themes.com"
+msgstr ""
+
+#: assets/views/welcome.php:11
+msgid "Welcome to"
+msgstr ""
+
+#: assets/views/welcome.php:13
+msgid "AIKO"
+msgstr ""
+
+#: assets/views/welcome.php:15
+msgid "AI Developer Lite (Pro version avaliable)"
+msgstr ""
+
+#: assets/views/welcome.php:16
+msgid "Designed for easy use, AIKO uses AI to create instant custom plugins in just a few minutes."
+msgstr ""
+
+#: assets/views/welcome.php:19
+#: framework/includes/class-aiko-developer-post-type-framework.php:24
+#: framework/includes/class-aiko-developer-post-type-framework.php:144
+#: framework/includes/class-aiko-developer-post-type-framework.php:145
+#: includes/class-aiko-developer-post-type.php:47
+#: includes/class-aiko-developer-post-type.php:48
+msgid "Add New Plugin"
+msgstr ""
+
+#: assets/views/welcome.php:20
+msgid "Get Pro version"
+msgstr ""
+
+#: assets/views/welcome.php:21
+#: framework/includes/class-aiko-developer-post-type-framework.php:153
+#: includes/class-aiko-developer-post-type.php:56
+msgid "Settings"
+msgstr ""
+
+#: assets/views/welcome.php:23
+msgid "Official Website"
+msgstr ""
+
+#: assets/views/welcome.php:24
+msgid "Documentation"
+msgstr ""
+
+#: assets/views/welcome.php:25
+msgid "Support"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:81
+msgid "Error: There was an error."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:82
+msgid "Error: Unauthorized access."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:83
+msgid "Error: Invalid data."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:84
+msgid "Error: Unable to connect to OpenAI API; please try again."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:85
+msgid "OpenAI Error: "
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:86
+msgid "Error: We were unable to check for errors, your plugin is not activated or saved. You can try again or download the ZIP and try to activate it manually."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:87
+msgid "Error: There might be an error in your plugin, it is not activated or saved."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:88
+msgid "Error: Plugin could not be activated, there is an error in PHP file."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:89
+msgid "Error: Failed to create zip file"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:90
+msgid "Error: Restricted code detected"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:91
+msgid "Error: Plugin title is required."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:92
+msgid "Error: Plugin slug is required."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:93
+msgid "Error: API key is required. Click OK to be redirected."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:94
+msgid "Error: You cannot copy empty code."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:95
+msgid "Error: You cannot submit empty Functional Requirements."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:96
+msgid "Error: Can't save the plugin without Functional Requirements."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:97
+msgid "Error: The plugin can't be saved without Functional Requirements"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:98
+msgid "Error: There is no text that could be rephrased."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:99
+msgid "No improvements have been selected."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:100
+#: framework/includes/class-aiko-developer-core-framework.php:103
+msgid "We have rephrased your text. Press UPDATE to generate new code."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:101
+msgid "We have rephrased your text. Press PUBLISH to generate code."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:102
+msgid "Error occured. We could not rephrase your text."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:104
+msgid "Undo successful. Rephrased Functional Requirements are not saved."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:105
+msgid "Code has beed saved."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:106
+msgid "Functional Requirements has beed saved. Press UPDATE to generate new code."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:107
+msgid "Code copied successfully."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:108
+msgid "Plugin is saved and activated successfully."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:109
+msgid "Page refreshed successfully, now you can ask AI developer to generate your code"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:110
+msgid "New code is ready. Now you can test it and use it. If you are not satisfied you can revert to the previous version using revisions."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:111
+msgid "Please refresh the page after you have entered the API key."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:112
+msgid "Improvement suggestions are ready. Now you can add them to Functional Requirements."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:113
+msgid "There are some improvements which are not included in Functional Requirements, so we did it for you. If you accept we will generate the code."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:114
+msgid "Are you sure you want to cancel? Edits won't be saved."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:115
+#: framework/includes/class-aiko-developer-post-type-framework.php:260
+msgid "Functional Requirements"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:116
+msgid "Write your initial idea & technical requirements. We highly recommend using the Rephrase option before publishing."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:117
+#: framework/includes/class-aiko-developer-post-type-framework.php:259
+msgid "Improvements"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-core-framework.php:118
+msgid "If you want to improve the Functional Requirements, write your idea."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:21
+#: framework/includes/class-aiko-developer-post-type-framework.php:136
+#: framework/includes/class-aiko-developer-post-type-framework.php:137
+#: includes/class-aiko-developer-post-type.php:39
+#: includes/class-aiko-developer-post-type.php:40
+msgid "Instant Plugins"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:22
+#: framework/includes/class-aiko-developer-post-type-framework.php:25
+msgid "Instant Plugin"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:23
+msgid "New Instant Plugin"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:26
+#: framework/includes/class-aiko-developer-post-type-framework.php:116
+#: framework/includes/class-aiko-developer-post-type-framework.php:117
+msgid "AIKO Developer"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:27
+msgid "Search Instant Plugins"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:28
+msgid "No Instant Plugins found."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:29
+msgid "No Instant Plugins found in Trash."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:30
+msgid "View Instant Plugin"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:78
+msgid "PHP"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:86
+msgid "JavaScript"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:94
+msgid "CSS"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:102
+msgid "Download"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:127
+msgid "AIKO Home"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:128
+#: includes/class-aiko-developer-post-type.php:31
+msgid "Home"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:152
+msgid "AIKO Settings"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:186
+msgid "OpenAI API Key"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:193
+msgid "API Key"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:201
+msgid "OpenAI Models"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:208
+msgid "Developer"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:216
+msgid "Consultant"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:258
+msgid "Post Slug"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:261
+msgid "PHP Output"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:262
+msgid "JS Output"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:263
+msgid "CSS Output"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-post-type-framework.php:273
+msgid "Add Plugin Title"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-render-framework.php:23
+#: framework/includes/class-aiko-developer-render-framework.php:38
+#: framework/includes/class-aiko-developer-render-framework.php:53
+#: includes/class-aiko-developer.php:326
+msgid "Edit"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-render-framework.php:24
+#: framework/includes/class-aiko-developer-render-framework.php:39
+#: framework/includes/class-aiko-developer-render-framework.php:54
+msgid "Copy code"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-render-framework.php:82
+#: includes/class-aiko-developer.php:68
+msgid "You must have "
+msgstr ""
+
+#: framework/includes/class-aiko-developer-render-framework.php:82
+#: framework/includes/class-aiko-developer-render-framework.php:106
+#: includes/class-aiko-developer.php:68
+msgid "OpenAI API key"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-render-framework.php:82
+#: includes/class-aiko-developer.php:68
+msgid " if you want to use our plugin. "
+msgstr ""
+
+#: framework/includes/class-aiko-developer-render-framework.php:106
+msgid "Please, enter your "
+msgstr ""
+
+#: framework/includes/class-aiko-developer-render-framework.php:140
+msgid "Generates the actual code based on functional requirements, playing the most crucial role in our plugin."
+msgstr ""
+
+#: framework/includes/class-aiko-developer-render-framework.php:141
+msgid "Click here"
+msgstr ""
+
+#: framework/includes/class-aiko-developer-render-framework.php:141
+msgid " to learn more about OpenAI models. "
+msgstr ""
+
+#: framework/includes/class-aiko-developer-render-framework.php:161
+msgid "Assists users in writing functional requirements by reformulating their input."
+msgstr ""
+
+#: includes/class-aiko-developer-post-type.php:19
+#: includes/class-aiko-developer-post-type.php:20
+msgid "AIKO Developer Lite"
+msgstr ""
+
+#: includes/class-aiko-developer-post-type.php:30
+msgid "AIKO Lite Home"
+msgstr ""
+
+#: includes/class-aiko-developer-post-type.php:55
+msgid "AIKO Lite Settings"
+msgstr ""
+
+#: includes/class-aiko-developer-render.php:16
+msgid "Test plugin"
+msgstr ""
+
+#: includes/class-aiko-developer-render.php:19
+msgid "Plugin testing on the WordPress playground, an independent service, without the risk of crashing the site."
+msgstr ""
+
+#: includes/class-aiko-developer-render.php:23
+#: includes/class-aiko-developer.php:100
+msgid "Download ZIP"
+msgstr ""
+
+#: includes/class-aiko-developer-render.php:26
+msgid "Download the zip and manually install the plugin."
+msgstr ""
+
+#: includes/class-aiko-developer.php:61
+msgid "Slug"
+msgstr ""
+
+#: includes/class-aiko-developer.php:74
+msgid "Your code does not match the current Functional Requirements. Please press update to generate a new version: "
+msgstr ""
+
+#: includes/class-aiko-developer.php:79
+msgid "There was an error. Please try to generate the code again."
+msgstr ""
+
+#: includes/class-aiko-developer.php:98
+msgid "What you can do now"
+msgstr ""
+
+#: includes/class-aiko-developer.php:99
+msgid "Test plugin on WordPress Playground"
+msgstr ""
+
+#: includes/class-aiko-developer.php:101
+msgid "Undo (go to revisions)"
+msgstr ""
+
+#: includes/class-aiko-developer.php:122
+msgid "Generation Error:"
+msgstr ""
+
+#: includes/class-aiko-developer.php:139
+msgid "Functional requirements"
+msgstr ""
+
+#: includes/class-aiko-developer.php:140
+msgid "Based on the functional requirements, the AI will generate plugin code, it is important that they are clearly and consistently written."
+msgstr ""
+
+#: includes/class-aiko-developer.php:155
+#: includes/class-aiko-developer.php:207
+msgid "Active model: OpenAI  "
+msgstr ""
+
+#: includes/class-aiko-developer.php:160
+msgid "Manual edit"
+msgstr ""
+
+#: includes/class-aiko-developer.php:161
+msgid "Rephrase"
+msgstr ""
+
+#: includes/class-aiko-developer.php:164
+msgid "You can modify the functional requirements manually or you can request a new rephrase if you think the current text needs improvement."
+msgstr ""
+
+#: includes/class-aiko-developer.php:176
+msgid "We have rephrased your text. Press Publish to generate code: "
+msgstr ""
+
+#: includes/class-aiko-developer.php:183
+msgid "Error"
+msgstr ""
+
+#: includes/class-aiko-developer.php:199
+msgid "Please type in your functional requirements"
+msgstr ""
+
+#: includes/class-aiko-developer.php:199
+msgid "Please type in your improvement idea"
+msgstr ""
+
+#: includes/class-aiko-developer.php:213
+msgid "Ask OpenAI to rephrase"
+msgstr ""
+
+#: includes/class-aiko-developer.php:216
+msgid "An AI tool that uses the entered text and generates functional requirements based on it."
+msgstr ""
+
+#: includes/class-aiko-developer.php:226
+msgid "There is a Pro version of this plugin!"
+msgstr ""
+
+#: includes/class-aiko-developer.php:227
+msgid "The Pro version of AIKO Developer Lite provides advanced features, such as easy extension of functional requirements, code review, improvement suggestions, automatic deployment and many more. "
+msgstr ""
+
+#: includes/class-aiko-developer.php:227
+msgid "Buy full version"
+msgstr ""
+
+#: includes/class-aiko-developer.php:251
+msgid "Don't refresh the page"
+msgstr ""
+
+#: includes/class-aiko-developer.php:258
+#: includes/class-aiko-developer.php:275
+msgid "AI consultant has rephrased your functional requirements"
+msgstr ""
+
+#: includes/class-aiko-developer.php:263
+#: includes/class-aiko-developer.php:277
+msgid "Before: "
+msgstr ""
+
+#: includes/class-aiko-developer.php:264
+#: includes/class-aiko-developer.php:278
+msgid "After: "
+msgstr ""
+
+#: includes/class-aiko-developer.php:267
+#: includes/class-aiko-developer.php:281
+msgid "Accept rephrased text"
+msgstr ""
+
+#: includes/class-aiko-developer.php:268
+#: includes/class-aiko-developer.php:282
+#: includes/class-aiko-developer.php:332
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-aiko-developer.php:289
+msgid "Alert"
+msgstr ""
+
+#: includes/class-aiko-developer.php:294
+msgid "OK"
+msgstr ""
+
+#: includes/class-aiko-developer.php:301
+#: includes/class-aiko-developer.php:306
+msgid "Refresh"
+msgstr ""
+
+#: includes/class-aiko-developer.php:313
+msgid "Confirm "
+msgstr ""
+
+#: includes/class-aiko-developer.php:318
+msgid "Yes, I comfirm"
+msgstr ""
+
+#: includes/class-aiko-developer.php:319
+msgid "No"
+msgstr ""
+
+#: includes/class-aiko-developer.php:331
+msgid "Submit"
+msgstr ""
